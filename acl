@@ -1,0 +1,10 @@
+# User hanif bisa baca/tulis semua topic sensor/hanif/#
+user hanif
+topic readwrite private/#
+
+# User device1 hanya boleh publish ke sensor/device1
+#user device1
+#topic write special/device1
+
+# Anonymous user hanya boleh baca/tulis di topik public/#
+pattern readwrite public/#
