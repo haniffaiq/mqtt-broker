@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  kali1:
+    image: kalilinux/kali-rolling
+    container_name: pub
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+
+  kali2:
+    image: kalilinux/kali-rolling
+    container_name: sub
+    tty: true
+    stdin_open: true
+    command: /bin/bash
